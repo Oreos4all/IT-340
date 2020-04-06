@@ -1,0 +1,58 @@
+    1  history
+    2  1
+    3  logout
+    4  usermod -G sudo hwuser1
+    5  sudo usermod -G sudo hwuser1
+    6  su - hwuser1
+    7  history
+    8  logout
+    9  sudo usermod -aG sudo hwuser2
+   10  groups
+   11  su - hwuser2
+   12  history
+   13  logout
+   14  dir
+   15  cd
+   16  cd Desktop
+   17  ls
+   18  dir
+   19  lis
+   20  ls
+   21  sudo apt install -y bind9 bind9utils bind9-doc dnsutils
+   22  sudo nano /etc/bind/named.conf.local
+   23  ip addr show
+   24  sudo nano /etc/bind/named.conf.local
+   25  f
+   26  sudo cp /etc/bind/db.local /etc/bind/forward.JoDevice/local.db
+   27  sudo cp /etc/bind/db.local /etc/bind/forward.JoDevice.local.db
+   28  sudo nano /etc/bind/forward.JoDevice.local.db
+   29  sudo cp /etc/bind/db.127 /etc/bind/reverse.JoDevice.local.db
+   30  sudo nano /etc/bind/reverse.JoDevice.local.db 
+   31  sudo named-checkconf
+   32  sudo named-checkzone JoDevice.local /etc/bind/forward.JoDevice.local.db 
+   33  named-checkzone 1.0.0.127.in-addr.arpa /etc/bind/reverse.JoDevice.local.db 
+   34  sudo systemctl restart bind9
+   35  sudo systemctl enable bind9
+   36  sudo systemctl status bind9
+   37  sudo nano /etc/resolv.conf
+   38  f
+   39  dig www.JoDevice.local
+   40  dig -x 127.0.0.1
+   41  history>DNSLabHistory.txt
+   42  sudo history>DNSLabHistory.txt
+   43  sudo history > DNSLabHistory.txt
+   44  history > historyDNS.txt
+   45  sudo history > history.txt
+   46  echo history > history.txt
+   47  cd /home
+   48  sudo history > historyDNS.txt
+   49  cd
+   50  sudo history > historyDNS.txt
+   51  history
+   52  clear
+   53  whoami
+   54  pwd
+   55  sudo chown -R username:www-data /home/jojo
+   56  sudo chown -R jojo /home/jojo
+   57  sudo history > historyDNS.txt
+   58  history > historyDNS.txt
